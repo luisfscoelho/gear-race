@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <main class="main">
+    <section class="game-initialization" id="game-initialization">
+      <h1 class="title">GEAR RACE</h1>
+      <span class="counter hide" id="counter">3</span>
+      <form action="">
+        <input type="text" placeholder="Digite seu nome" name="name" required>
+        <button type="submit"><b>START</b></button>
+      </form>
+    </section>
+    <section class="scenery-container hide" id="game">
+      <img src="assets/CENARIO_anima.gif" alt="scenery" class="scenery">
+      <img src="assets/CARRO.png" alt="car" class="car car-center" id="car">
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
